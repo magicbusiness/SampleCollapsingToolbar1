@@ -1,0 +1,12 @@
+To use collapsing toolbar
+1. Make sure deactivate yout actionBar in Manifest
+2. In your layout change parent into coordinateLayout and make sure 
+    add AppBar Layout and NestedScrollView
+3. In AppBar make sure you apply theme and add widget collapsingToolbarLayout,
+    dont forget to add fitsSystemWindows,theme, and layout_scrollFlags in collapsingToolbarLayout
+4. In CollapsingToolbarLayout you must add Toolbar for later be implement in file Kotlin
+5. Next in NestedScrollView you implement your design, other than that is your creativity
+6. In file kotlin you implement setSupportActionBar then 
+    supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+Note: Make sure your import is the same in layout (import androidx.appcompat.widget.Toolbar)
