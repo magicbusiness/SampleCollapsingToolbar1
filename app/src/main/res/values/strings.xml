@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sample Collapsing Toolbar</string>
+    <string name="todo">TODO</string>
+    <string name="title_sample">Titile Sample</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry</string>
+    <string name="about">About</string>
+    <string name="text_description">Text Description</string>
+</resources>
